@@ -29,14 +29,14 @@ android_app {
     system_ext_specific: true,
     required: [
         "default-permissions_org.lineageos.profiles",
-        "privapp_whitelist_org.lineageos.profiles-ext"
+        "privapp_whitelist_org.lineageos.profiles"
     ],
 }
 
 prebuilt_etc {
-    name: "privapp_whitelist_org.lineageos.profiles-ext",
+    name: "privapp_whitelist_org.lineageos.profiles",
     system_ext_specific: true,
-    src: "privapp_whitelist_org.lineageos.profiles-ext.xml",
+    src: "privapp_whitelist_org.lineageos.profiles.xml",
     sub_dir: "permissions",
     filename_from_src: true,
 }
